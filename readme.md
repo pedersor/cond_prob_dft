@@ -23,7 +23,7 @@ $ cd DFT_1d
 $ pip install .
 ```
 
-* Next, install the conditional probability DFT module 
+* Next, in a different directory, install the conditional probability DFT module 
 ```
 $ git clone https://github.com/pedersor/cond_prob_dft_1d.git
 $ cd cond_prob_dft_1d
