@@ -1,5 +1,4 @@
 import numpy as np
-from scipy import special
 import matplotlib.pyplot as plt
 
 from DFT_1d import ext_potentials

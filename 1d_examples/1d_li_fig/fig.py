@@ -7,7 +7,7 @@ from DFT_1d import ext_potentials
 from DFT_1d import functionals
 from DFT_1d import ks_dft
 
-from blue_electron_theory import utils
+from cond_prob_dft_1d import utils
 
 if __name__ == '__main__':
 
@@ -104,7 +104,7 @@ if __name__ == '__main__':
           num_electrons=cp_num_electrons,
           occupation_per_state=occ_per_state,
       )
-      cp_ks_blue.solve_self_consistent_density(verbose=1)
+      cp_ks_blue.solve_self_consistent_density()
 
       cp_ks_inv = ks_inversion.two_iter_KS_inversion(
           grids,

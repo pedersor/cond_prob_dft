@@ -7,7 +7,7 @@ from DFT_1d import ext_potentials
 from DFT_1d import functionals
 from DFT_1d import ks_dft
 
-from blue_electron_theory import utils
+from cond_prob_dft_1d import utils
 
 if __name__ == '__main__':
 
