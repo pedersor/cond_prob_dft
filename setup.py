@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="cond_prob_dft_1d",
-    version="0.0.0",
+    version="0.0.1",
     author="Ryan Pederson",
     author_email="pedersor@uci.edu",
     description="Conditional probability DFT in 1D examples.",
