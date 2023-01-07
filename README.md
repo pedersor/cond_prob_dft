@@ -4,7 +4,7 @@ Conditional Probability Density Functional Theory (CP-DFT) with 1D systems
 Overview
 ------------
 
-This library contains code to reproduce the 1-dimensional (1D) examples
+[This library](https://github.com/pedersor/cond_prob_dft_1d) contains code to reproduce the 1-dimensional (1D) examples
 presented in the following work:
 
 

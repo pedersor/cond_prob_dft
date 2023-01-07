@@ -3,6 +3,11 @@ from setuptools import find_packages, setup
 with open("README.md", "r") as fh:
   long_description = fh.read()
 
+# Read in requirements
+requirements = [
+    requirement.strip() for requirement in open('requirements.txt').readlines()
+]
+
 setup(
     name="cond_prob_dft_1d",
     version="0.0.1",
@@ -19,5 +24,6 @@ setup(
         "Development Status :: 3 - Alpha",
     ],
     python_requires=('>=3.6.9'),
+    install_requires=requirements,
     packages=find_packages(),
 )

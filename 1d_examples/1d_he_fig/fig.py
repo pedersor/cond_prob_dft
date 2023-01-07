@@ -76,7 +76,7 @@ if __name__ == '__main__':
         t_tol=0.0001,
     )
 
-    cp_v_s = cp_ks_inv._get_v_eff()
+    cp_v_s = cp_ks_inv.get_v_s()
     cp_density_from_inv = cp_ks_inv.f_density
 
     ks_inv = ks_inversion.two_iter_KS_inversion(
@@ -86,7 +86,7 @@ if __name__ == '__main__':
         num_electrons,
         t_tol=0.0001,
     )
-    v_s = ks_inv._get_v_eff()
+    v_s = ks_inv.get_v_s()
 
     fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
     if ref_point == 0.0:

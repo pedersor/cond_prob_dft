@@ -86,7 +86,7 @@ if __name__ == '__main__':
         cp_num_electrons,
         t_tol=0.0001,
     )
-    cp_v_s = cp_ks_inv._get_v_eff()
+    cp_v_s = cp_ks_inv.get_v_s()
     cp_density_from_inv = cp_ks_inv.f_density
 
     # KS-DFT
@@ -97,7 +97,7 @@ if __name__ == '__main__':
         num_electrons,
         t_tol=0.0001,
     )
-    v_s = ks_inv._get_v_eff()
+    v_s = ks_inv.get_v_s()
 
     # plotting
     fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
