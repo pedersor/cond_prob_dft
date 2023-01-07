@@ -1,2 +1,24 @@
-.vscode
-__pycache__
+# byte-compiled
+__pycache__/
+
+# Mac OS
+.DS_Store
+
+# VScode
+.vscode/
+
+# IntelliJ
+.idea/
+
+# virtual envs
+venv*
+
+# pip install files
+*.egg-info/
+
+# temporary files
+tmp*
+
+# miscellaneous run files
+*slurm*
+*.job
