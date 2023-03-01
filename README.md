@@ -1,8 +1,13 @@
-Conditional Probability Density Functional Theory (CP-DFT) with 1D systems
+Conditional Probability Density Functional Theory (CP-DFT)
 ===============================
 
 Overview
 ------------
+CP-DFT is a DFT method that determines the ground-state energy of a system by finding the conditional probability (CP) density from a series of
+independent Kohn-Sham (KS) DFT calculations. By directly calculating CP densities, and thus the exchange-correlation (XC) hole, we bypass the need for an approximate XC energy functional.
+
+![](toc_graphic.png)
+
 
 [This library](https://github.com/pedersor/cond_prob_dft_1d) contains code to reproduce the 1-dimensional (1D) examples
 presented in the following work:
